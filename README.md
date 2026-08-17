@@ -40,6 +40,13 @@ Employee *---1 Employee (ReportsTo - self join)
 Playlist 1---* PlaylistTrack *---1 Track
 ```
 
+### Data model (ER diagram)
+
+Official Chinook entity-relationship diagram, showing all 11 tables and
+how they connect.
+
+![Chinook ER diagram](chinook-er-diagram.png)
+
 ## How to run
 
 1. Create the database in MySQL Workbench:
@@ -65,6 +72,7 @@ music-store-sql-analytics/
 ├── data_analysis/
 │   ├── exports/                 # SQL results saved as CSVs
 │   └── scripts/                 # (coming later) pandas analysis
+├── chinook-er-diagram.png       # official Chinook ER diagram
 ├── README.md
 └── PROGRESS.md                  # learning log with predictions & mistakes
 ```
